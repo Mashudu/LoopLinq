@@ -1,0 +1,12 @@
+C:\Users\mulem001\source\repos\LoopLinq\bin\Debug\LoopLinq.exe.config
+C:\Users\mulem001\source\repos\LoopLinq\bin\Debug\LoopLinq.exe
+C:\Users\mulem001\source\repos\LoopLinq\bin\Debug\LoopLinq.pdb
+C:\Users\mulem001\source\repos\LoopLinq\bin\Debug\EntityFramework.dll
+C:\Users\mulem001\source\repos\LoopLinq\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mulem001\source\repos\LoopLinq\bin\Debug\EntityFramework.xml
+C:\Users\mulem001\source\repos\LoopLinq\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mulem001\source\repos\LoopLinq\obj\Debug\LoopLinq.csprojAssemblyReference.cache
+C:\Users\mulem001\source\repos\LoopLinq\obj\Debug\LoopLinq.csproj.CoreCompileInputs.cache
+C:\Users\mulem001\source\repos\LoopLinq\obj\Debug\LoopLinq.csproj.CopyComplete
+C:\Users\mulem001\source\repos\LoopLinq\obj\Debug\LoopLinq.exe
+C:\Users\mulem001\source\repos\LoopLinq\obj\Debug\LoopLinq.pdb

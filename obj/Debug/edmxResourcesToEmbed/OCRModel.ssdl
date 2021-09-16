@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OCRModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'OCR.dbo.InitialData' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="InitialData">
+          <Property Name="ID" Type="float" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="255" />
+          <Property Name="Class" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'OCR.dbo.InitialRun' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="InitialRun">
+          <Property Name="ID" Type="float" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="255" />
+          <Property Name="Class" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'OCR.dbo.NeedOCR' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="NeedOCR">
+          <Property Name="ID" Type="float" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="255" />
+          <Property Name="Class" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'OCR.dbo.OCRD' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="OCRD">
+          <Property Name="ID" Type="float" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="255" />
+          <Property Name="Class" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'OCR.dbo.OCRDPdf' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="OCRDPdf">
+          <Property Name="ID" Type="float" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="4000" />
+          <Property Name="Class" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <EntityType Name="Sorted">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="float" Nullable="false" />
+    <Property Name="FileName" Type="nvarchar" MaxLength="255" />
+    <Property Name="Class" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="OCRModelStoreContainer">
+    <EntitySet Name="Sorted" EntityType="Self.Sorted" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
